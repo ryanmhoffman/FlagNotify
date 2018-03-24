@@ -30,6 +30,10 @@ build/
 local.properties
 *.iml
 
+# vim specific
+*.sw?
+*~
+
 # node.js
 #
 node_modules/
