@@ -11,6 +11,8 @@ class Topbar extends Component<Props> {
       <ToolbarAndroid
         style={styles.topbar}
         title="FlagNotify"
+        titleColor="white"
+        actions={[{title: 'Settings', show: 'always'}]}
       />
     );
   }
@@ -18,10 +20,9 @@ class Topbar extends Component<Props> {
 
 const styles = StyleSheet.create({
   topbar: {
-    backgroundColor: '#e9eaed',
+    backgroundColor: '#bf0a30',
     height: 56,
     alignSelf: 'stretch',
-
   },
 });
 
